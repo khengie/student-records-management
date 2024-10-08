@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Student Records Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Login - Student Records Management System</h1>
+</header>
+
+<main>
+    <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" class="form-input" placeholder="Enter your username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" class="form-input" placeholder="Enter your password" required>
+
+        <button type="submit" class="btn">Login</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2024 Student Records Management System</p>
+</footer>
+
+<script>
+    // JavaScript for handling login (for demonstration purposes)
+    document.getElementById("login-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+        // Here you would typically send the username and password to your server
+        // For now, we'll just simulate a successful login
+        alert("Login successful!");
+        window.location.href = "index.html"; // Redirect to the home page after login
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Student Records Management System</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="students.html">Students</a>
+    <a href="approval_requests.html">Approval Requests</a>
+    <a href="reports.html">Reports</a>
+    <a href="settings.html">Settings</a>
+</nav>
+
+<main>
+    <h2>Reports</h2>
+    <label for="report-type">Select Report Type:</label>
+    <select id="report-type">
+        <option value="enrollment">Enrollment Statistics</option>
+        <option value="approval">Approval Statistics</option>
+    </select>
+    <button class="btn">Generate Report</button>
+
+    <div id="report-display">
+        <h3>Generated Report</h3>
+        <p>No reports generated yet.</p>
+    </div>
+</main>
+
+</body>
+</html>
